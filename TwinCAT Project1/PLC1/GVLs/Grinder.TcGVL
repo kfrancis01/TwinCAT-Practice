@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.6">
+  <GVL Name="Grinder" Id="{32dc2d49-9e4b-46c6-a374-c157d29889db}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	GrindingWheelMS : BOOL;
+	StartGrindingWheelPB : BOOL;
+	StopGrindingWheelPB : BOOL;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
